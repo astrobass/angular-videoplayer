@@ -5,7 +5,7 @@ angular.module('videoplayer', [])
       scope: {},
       controller: 'videoCtrl',
       restrict: 'E',
-      template: '<video autoplay="true" controls width="200" height="200"></video>',
+      template: '<video autoplay="true" width="300" height="300"></video>',
       replace: true
     };
   })
